@@ -1,0 +1,30 @@
+{{ $p := .Site.GetPage "page" (print "home." .Lang ".md") }}
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>OER @ EIMT / UOC</title>
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+    
+    <div class="header">
+        <div class="title">{{ safeHTML .Site.Title}}</div>
+        <div class="translations">
+            {{ range .Translations }}
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a> | 
+            {{ end }}
+        </div>
+    </div>    
+
+    <h3>{{$p.Title}}</h3>
+    
+    {{ range where .Pages "Section" "links" }}
+        <p><a href="{{ .Params.Link }}">{{ .Title }}</a></p>
+    {{ end }}
+  
+    </body>
+    
+    </html>
+    

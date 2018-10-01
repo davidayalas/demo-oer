@@ -1,0 +1,23 @@
+title = "Demo OER"
+baseURL = "/"
+DefaultContentLanguage = "ca"
+enableRobotsTXT = true
+
+defaultContentLanguageInSubdir = true
+
+[languages]
+
+  [languages.ca]
+    title = "Lloc web per a recursos docents i projectes en obert dels <a href='http://www.uoc.edu/portal/ca/estudis_arees/informatica_multimedia_telecomunicacio/index.html'>Estudis d'Informàtica, Multimèdia i Telecomunicació de la Universitat Oberta de Catalunya</a>"
+    weight = 1
+    languageName = "Català"
+
+  [languages.es]
+    title = "Sitio web para recursos docentes y proyectos en abierto de los <a href='http://www.uoc.edu/portal/es/estudis_arees/informatica_multimedia_telecomunicacio/'>Estudios de Informática, Multimedia y Telecomunicación de la Universitat Oberta de Catalunya</a>"
+    weight = 2
+    languageName = "Castellano"
+
+  [languages.en]
+    title = "Web site for open educational resources and projects of the <a href='http://www.uoc.edu/portal/en/estudis_arees/informatica_multimedia_telecomunicacio/index.html'>Computer Science, Multimedia and Telecommunication Department at Universitat Oberta de Catalunya</a>"
+    weight = 3
+    languageName = "English"
