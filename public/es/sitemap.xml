@@ -1,126 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>/es/categories/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
   <url>
     <loc>/es/links/mineria/</loc>
+    
   </url>
   
   <url>
     <loc>/es/links/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/links/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
   <url>
     <loc>/es/links/d3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/links/d3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/links/d3/"
-                />
+    
   </url>
   
   <url>
     <loc>/es/home/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/home/"
-                />
+    
   </url>
   
   <url>
     <loc>/es/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
-                />
+    
   </url>
   
   <url>
     <loc>/es/tags/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
   <url>
     <loc>/es/links/blog-eimt/</loc>
+    
   </url>
   
 </urlset>

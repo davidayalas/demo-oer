@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Links on Web site for open educational resources and projects of the &lt;a href=&#39;http://www.uoc.edu/portal/en/estudis_arees/informatica_multimedia_telecomunicacio/index.html&#39;&gt;Computer Science, Multimedia and Telecommunication Department at Universitat Oberta de Catalunya&lt;/a&gt;</title>
+    <title>Links on Web site for open educational resources and projects</title>
     <link>/en/links/</link>
-    <description>Recent content in Links on Web site for open educational resources and projects of the &lt;a href=&#39;http://www.uoc.edu/portal/en/estudis_arees/informatica_multimedia_telecomunicacio/index.html&#39;&gt;Computer Science, Multimedia and Telecommunication Department at Universitat Oberta de Catalunya&lt;/a&gt;</description>
+    <description>Recent content in Links on Web site for open educational resources and projects</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="/en/links/index.xml" rel="self" type="application/rss+xml" />

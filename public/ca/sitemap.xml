@@ -1,126 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>/ca/categories/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
   <url>
     <loc>/ca/links/opendata/</loc>
+    
   </url>
   
   <url>
     <loc>/ca/links/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/links/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
   <url>
     <loc>/ca/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/"
-                />
+    
   </url>
   
   <url>
     <loc>/ca/links/wiki4he/</loc>
+    
   </url>
   
   <url>
     <loc>/ca/home/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/home/"
-                />
+    
   </url>
   
   <url>
     <loc>/ca/links/d3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/links/d3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/links/d3/"
-                />
+    
   </url>
   
   <url>
     <loc>/ca/tags/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/"
-                />
+    
+    <issection>true</issection>
+    
   </url>
   
 </urlset>

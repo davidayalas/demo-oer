@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Sitio web para recursos docentes y proyectos en abierto de los &lt;a href=&#39;http://www.uoc.edu/portal/es/estudis_arees/informatica_multimedia_telecomunicacio/&#39;&gt;Estudios de Informática, Multimedia y Telecomunicación de la Universitat Oberta de Catalunya&lt;/a&gt;</title>
+    <title>Categories on Sitio web para recursos docentes y proyectos en abierto</title>
     <link>/es/categories/</link>
-    <description>Recent content in Categories on Sitio web para recursos docentes y proyectos en abierto de los &lt;a href=&#39;http://www.uoc.edu/portal/es/estudis_arees/informatica_multimedia_telecomunicacio/&#39;&gt;Estudios de Informática, Multimedia y Telecomunicación de la Universitat Oberta de Catalunya&lt;/a&gt;</description>
+    <description>Recent content in Categories on Sitio web para recursos docentes y proyectos en abierto</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="/es/categories/index.xml" rel="self" type="application/rss+xml" />

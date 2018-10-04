@@ -17,14 +17,11 @@
 	    <div class="row">
             <div class="col-md-12">            
                     
-				{{ range where .Paginator.Pages "Section" "links" }}
+				{{ range where ( where .Site.AllPages "Section" "links") ".Kind" "=" "page" }}
 					{{ partial "post-home.html" . }}
 			    {{ end }}
 			    
             </div><!-- row -->
-
-		    {{ template "_internal/pagination.html" . }}
-
    
 	    </div><!-- container -->
 	</main>
