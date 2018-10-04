@@ -1,0 +1,14 @@
+ca: 
+  ca: "Català"
+  es: "Castellà"
+  en: "Anglès"
+
+es:
+  ca: "Catalán"
+  es: "Castellano"
+  en: "Inglés"  
+
+en:
+  ca: "Catalan"
+  es: "Spanish"
+  en: "English"

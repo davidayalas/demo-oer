@@ -1,5 +1,5 @@
 title = "Demo OER"
-baseURL = "/oer"
+baseURL = "/"
 DefaultContentLanguage = "ca"
 enableRobotsTXT = true
 
