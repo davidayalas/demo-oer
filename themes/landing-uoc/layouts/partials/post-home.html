@@ -8,7 +8,11 @@
   <div class="block-post-without-img">
       <a href="{{ .Params.link }}">
           {{$langs := index $data.lang (print $lang) }}
-          <h2 class="font-alternate"><span class="highlighted">{{ $context.Title }}</span> ({{index $langs (print $context.Language) }})</h2>
+          <h2 class="font-alternate"><span class="highlighted">{{ $context.Title }}</span> 
+            {{ if ne (print $lang) (print $context.Language) }}
+            ({{index $langs (print $context.Language) }})
+            {{ end }}
+          </h2>
       </a>
 
       <div class="color-grey-dark">
