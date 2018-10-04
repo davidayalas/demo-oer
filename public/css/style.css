@@ -1,0 +1,15 @@
+.header{
+    padding-bottom: 2em;
+}
+
+.title{
+    float: left;
+}
+
+.translations{
+    float:right;
+}
+
+hr{
+    width:100%
+}

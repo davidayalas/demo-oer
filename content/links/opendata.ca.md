@@ -1,5 +1,5 @@
 ---
-title: Curs d'Introducció a les Dades Obertes (Català / Catalán / Catalan)
+title: Curs d'Introducció a les Dades Obertes
 link: http://oer.uoc.edu/cursOpenData/
 language: ca
 ---
