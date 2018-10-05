@@ -96,8 +96,8 @@
                             <ul role="presentation" class="menu-language-mobile list--inline p-bottom-y">
                                 {{ if .IsTranslated }}
                                     {{ range .Translations }}
-                                        <a aria-label="{{ .Language.LanguageName }}" href="{{ .Permalink }}" >
-                                            {{ .Language }}
+                                        <a aria-label="{{ .Language.LanguageName }}" href="{{ .Permalink }}" style="margin-right: .3em;">
+                                            {{ .Language.LanguageName }}
                                         </a>
                                     {{ end }}
                                 {{ end }}

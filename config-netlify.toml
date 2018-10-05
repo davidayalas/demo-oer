@@ -13,13 +13,19 @@ defaultContentLanguageInSubdir = true
     title = "Lloc web per a recursos docents i projectes"
     weight = 1
     languageName = "Català"
+    [languages.ca.params]
+      subtitol = "<a href='http://www.uoc.edu/portal/ca/estudis_arees/informatica_multimedia_telecomunicacio/index.html'>Estudis d'Informàtica, Multimèdia i Telecomunicació de la Universitat Oberta de Catalunya</a>"
 
   [languages.es]
     title = "Sitio web para recursos docentes y proyectos en abierto"
     weight = 2
     languageName = "Castellano"
+    [languages.es.params]
+      subtitol = "<a href='http://www.uoc.edu/portal/es/estudis_arees/informatica_multimedia_telecomunicacio/'>Estudios de Informática, Multimedia y Telecomunicación de la Universitat Oberta de Catalunya</a>"
 
   [languages.en]
     title = "Web site for open educational resources and projects"
     weight = 3
     languageName = "English"
+    [languages.en.params]
+      subtitol = "<a href='http://www.uoc.edu/portal/en/estudis_arees/informatica_multimedia_telecomunicacio/index.html'>Computer Science, Multimedia and Telecommunication Department at Universitat Oberta de Catalunya</a>"

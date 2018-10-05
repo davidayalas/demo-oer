@@ -5,8 +5,8 @@
 {{ $.Site.Language }}
 
 <div class="m-bottom-6y">
-  <div class="block-post-without-img">
-      <a href="{{ .Params.link }}">
+  <div class="block-post-without-img">{{ .Params.link }}
+      <a href="{{ $context.Params.link }}">
           {{$langs := index $data.lang (print $lang) }}
           <h2 class="font-alternate"><span class="highlighted">{{ $context.Title }}</span> 
             {{ if ne (print $lang) (print $context.Language) }}
