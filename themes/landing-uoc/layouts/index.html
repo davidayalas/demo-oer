@@ -14,15 +14,21 @@
 	       
     	{{ partial "title.html" . }}
 
-	    <div class="row">
-            <div class="col-md-12">            
 				{{ $lang := .Site.Language }}
-				{{ range where ( where .Site.AllPages "Section" "links") ".Kind" "=" "page" }}
-					{{ partial "post-home.html"  (dict "data" $.Site.Data "context" . "lang" $lang)  }}
-			    {{ end }}
-			    
-            </div><!-- row -->
-   
+				{{ range $index, $value := where ( where .Site.AllPages "Section" "links") ".Kind" "=" "page" }}
+					{{ if eq (mod (add $index 1) 2) 1}}
+						<div class="row">
+					{{ end }}
+
+						<div class="col-md-6">	
+							{{ partial "post-home.html"  (dict "data" $.Site.Data "context" $value "lang" $lang)  }}
+						</div>
+
+					{{ if eq (mod (add $index 1) 2) 0}}
+						</div><!-- row -->
+					{{ end }}
+
+				{{ end }}
 	    </div><!-- container -->
 	</main>
 

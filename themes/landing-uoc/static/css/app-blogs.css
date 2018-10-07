@@ -1361,7 +1361,7 @@ footer .footer-menu .dropdown-secondary__option__item:hover {
 .block-post-without-img {
   background: #f0f0f0;
   padding: 25px;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;*/
 }
 
 .wrap-posts .block-post-img,
